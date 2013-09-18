@@ -28,6 +28,9 @@ text-decoration:none;
    //padding: 10px 10px 10px 10px;
    margin:0px   
 }
+.buttonHolder{ 
+	text-align: center; 
+	}
 .family li{
 padding:10px 10px 10px 10px;
 float:right;
