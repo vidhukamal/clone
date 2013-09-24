@@ -3,6 +3,7 @@ ul
 list-style-type:none;
 margin:0;
 padding:0;
+
 }
 li
 {
@@ -17,7 +18,15 @@ width:100%;
 .friends {
 background-color:black;
 text-decoration:none;
+height: 20px;
+padding: 10px 10px 10px 10px;
 }
+	a:link    {color:gray;}
+	.friends a:hover    {color:white;}
+	
+	.foot:hover{
+		text-decoration: underline
+	}	
 .family{
    position:absolute;
    bottom:0;
@@ -26,7 +35,7 @@ text-decoration:none;
    background:white;
    border:1px solid gray;
    //padding: 10px 10px 10px 10px;
-   margin:0px   
+   margin:0px;   
 }
 .buttonHolder{ 
 	text-align: center; 
@@ -39,13 +48,38 @@ float:right;
 #searchbox{
 	text-align: center;
 	margin:80px;
-}
-form{
-	text-align: center;
+	padding-top: 112px;
 	
 }
-button{
+.blank-img{
+	resize: vertical;
+}
+#input{
+	text-align: center;
+	padding:0;
+	margin:10px 0 ;
+	
+	height:auto;
+	width:100%;
+	
+	
+}
+#inner{
 	float:right;
+	padding:5px 5px;
+	margin:0;
+	
+	
+	}
+.name{
+	
+	color:gray;
+}
+button{
+	border-radius:5px;
+		height:30px;
+	
+		
 }
 buttons{
 	text-align: center;
